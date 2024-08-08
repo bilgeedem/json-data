@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>B real estate</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="js/meinAjax.js" defer></script>
+
+<script src="js/meins.js" defer></script> 
+
+<script src="js/functions.js" defer></script> 
+
+<link rel="icon" href="img/b REAL ESTATE.png" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
+
+<link rel="stylesheet" href="css/meins.css"> 
+ 
+
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>B</b> real estate</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="img/patrick-tomasso-gMes5dNykus-unsplash.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey">FIND YOUR DREAM HOME</span></h1>
+  </div>
+</header>
+
+
+
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 boldtext">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="img/r-architecture-0tKCSyLXqQM-unsplash (1).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="img/r-architecture-2gDwlIim3Uw-unsplash.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="img/r-architecture-KQPEhYweLrQ-unsplash.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="img/r-architecture-GGupkreKwxA-unsplash.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="img/r-architecture-L_j9OWElo1s-unsplash.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="img/r-architecture-NeN1D7Z3Ick-unsplash.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="img/r-architecture-Cn87TISYij8-unsplash.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="img/mueen-agherdien-bW6JWZJWwmg-unsplash.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+    <!-- MAP Section -->
+  <div id="map">
+
+
+
+
+
+
+
+
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 boldtext">About</h3>
+    <p>Welcome to B real estate, the premier destination for modern luxury homes in the heart of London. We specialize in offering a curated selection of contemporary residences that blend innovative design with exceptional functionality. Our properties are meticulously chosen to meet the highest standards of modern living, providing you with a perfect balance of comfort, style, and sophistication
+    </p>
+
+    <h4 class="boldtext"> Our Mission </h4>
+     
+    <p>At B real estate, our mission is to redefine urban living by presenting homes that exemplify the best of modern architecture and design. We believe in creating spaces that not only look stunning but also enhance your lifestyle through smart, sustainable, and efficient living solutions.</p>
+
+    <h4 class="boldtext"> Why Choose Us? </h4>
+
+    <p>
+
+<ul>
+
+  <li>  <strong>Expertise:</strong>With years of experience in the London real estate market, we have a deep understanding of the city’s unique neighborhoods and the evolving demands of contemporary living.</li>
+<br>
+  <li><strong>Quality:</strong> Every home we offer is a masterpiece of modern design, featuring state-of-the-art amenities, high-quality materials, and exceptional craftsmanship</li>
+<br>
+  <li><strong>Personalized Service:</strong> Our team of dedicated professionals is committed to providing you with a seamless and personalized buying experience. We take the time to understand your needs and preferences, ensuring you find the perfect home.</li>
+<br>
+  <li><strong>Innovative Solutions:</strong> We stay ahead of industry trends to bring you the latest in smart home technology, sustainable building practices, and cutting-edge design.</li>
+
+
+
+
+</ul>
+
+
+    </p>
+     
+
+
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/profile.png" alt="Bilge" style="width:100%">
+      <h3>Bilge</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Bilge brings over 20 years of experience in real estate and a vision to redefine modern living. As the founder and CEO, Bilge leads the company with passion and dedication.</p>
+
+    
+      <div id="overlay"  onclick="off()">
+        <div id="text">[ brealestate@gmail.com ]</div>
+      </div>
+      
+      <p><button class="w3-button w3-light-grey w3-block" onclick="on('[ brealestate@gmail.com ]')">Contact</button></p>
+
+
+    </div>
+
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/profile.png" alt="Sophia Chen" style="width:100%">
+      <h3>Sophia Chen</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Sophia is a talented architect known for her innovative designs and sustainable building practices. She has a keen eye for detail and a commitment to excellence.</p>
+      
+      
+      <p><button class="w3-button w3-light-grey w3-block" onclick="on('[ chen.brealestate@gmail.com ]')">Contact</button></p>
+
+
+
+
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/profile.png" alt="James Bennett" style="width:100%">
+      <h3>James Bennett</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>With a deep understanding of the London real estate market, James excels in connecting clients with their dream homes. His expertise and dedication are unmatched.</p>
+   
+     
+      <p><button class="w3-button w3-light-grey w3-block" onclick="on('[ bennett.brealestate@gmail.com ]')">Contact</button></p>
+
+
+
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/profile.png" alt="Mei Wong" style="width:100%">
+      <h3>Mei Wong</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Mei has a wealth of experience in property management and client services. Her commitment to client satisfaction ensures a smooth and enjoyable buying experience.</p>
+
+     
+      
+      <p><button class="w3-button w3-light-grey w3-block"  onclick="on('[ wong.brealestate@gmail.com ]')">Contact</button></p>
+
+
+
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 boldtext">Contact</h3>
+    <p>Ready to find your dream home? Get in touch with us today to schedule a viewing or to learn more about our services. Our team is here to guide you every step of the way, making your home-buying journey as smooth and enjoyable as possible.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+
+ 
+
+
+
+ <!-- JSON Section -->
+ <div class="w3-container w3-padding-32" id="Other">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 boldtext">Our Properties at Other Locations</h3>
+  <p>Discover the diverse range of properties we offer in various locations. Whether you are looking for a cozy apartment in the heart of the city, a serene countryside villa, or a commercial space in a bustling business district, we have something to meet your needs. Our portfolio spans across multiple regions, each offering unique opportunities and lifestyle benefits.</p>
+  
+
+
+
+  <article>
+      
+ <p>Please select both criteria.</p> 
+ <select onchange="ersteAuswahl(this.value)">
+  <option value="">bitte auswählen</option>
+  <option value="House">House</option>
+  <option value="Penthouse">Penthouse</option>
+  <option value="Lake House">Lake House</option>
+  <option value="Apartment">Apartment</option>
+  <option value="Studio">Studio</option>
+  <option value="Townhouse">Townhouse</option>
+</select>
+
+<select onchange="zweiteAuswahl(this.value)">
+  <option value="">bitte auswählen</option>
+  <option value="Liverpool">Liverpool</option>
+  <option value="Birmingham">Birmingham</option>
+  <option value="Manchester">Manchester</option>
+  <option value="Bristol">Bristol</option>
+</select>
+  
+<button onclick="filtern2arguments()">send</button>  
+  
+      <h3 id="headline2">Results </h3>
+        <section  id="ausgabeContentFilter2"></section>
+   </article> 
+ <hr>
+
+
+
+
+</div>
+
+ <!-- JSON Button Section -->
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+#head1{
+
+color:rgb(210, 203, 203);
+
+}
+
+
+#map { 
+    
+    
+    height: 300px; 
+
+    
+
+
+
+}
+
+.boldtext{
+
+    font-weight:bold;
+}
+
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 50%; /* 50% width */
+    height: 50%; /* 50% height */
+    top: 50%; /* Start positioning from the center */
+    left: 50%; /* Start positioning from the center */
+    transform: translate(-50%, -50%); /* Offset the position to center the overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+ 
+
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }

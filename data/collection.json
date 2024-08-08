@@ -1,0 +1,41 @@
+{
+   "collection": {
+      "item": [
+         {
+            "format": "House",
+            "title": "Contemporary Home",
+            "city": "Liverpool",
+            "description": "A modern house with sleek design and state-of-the-art amenities, located in the vibrant city of Liverpool.",
+            "price": "€500,000"
+         },
+         {
+            "format": "House",
+            "title": "Contemporary Home",
+            "city": "Birmingham",
+            "description": "A stylish and functional home situated in the heart of Birmingham, featuring open-plan living spaces and contemporary finishes.",
+            "price": "€500,000"
+         },
+         {
+            "format": "Lake House",
+            "title": "Lakeside Retreat",
+            "city": "Manchester",
+            "description": "A serene lakeside house offering breathtaking views and a tranquil environment, perfect for relaxation and escape from the city.",
+            "price": "€800,000"
+         },
+         {
+            "format": "Apartment",
+            "title": "City View Apartment",
+            "city": "Bristol",
+            "description": "An elegant apartment with stunning city views, situated in a prime location offering convenience and luxury.",
+            "price": "€800/month"
+         },
+         {
+            "format": "Penthouse",
+            "title": "Luxurious Penthouse",
+            "city": "Bristol",
+            "description": "A high-end penthouse with expansive living spaces, premium finishes, and panoramic views, offering the ultimate in luxury living.",
+            "price": "€2,500,000"
+         }
+      ]
+   }
+}
