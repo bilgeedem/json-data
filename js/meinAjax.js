@@ -50,7 +50,7 @@ request.onload = function() {
 		document.getElementById("ausgabeContentFilter2").innerHTML = "";
 		// Abfrage, ob das Array mit den Treffern leer, weil dann keine Ergebnisliste ausgegeben werden kann
 		if (filtertItems.length === 0){
-        	document.getElementById("ausgabeContentFilter2").innerHTML = "<br>Die Suche ergab keinen Treffer.";
+        	document.getElementById("ausgabeContentFilter2").innerHTML = "<br> The search yielded no results.";
     	}else {
 			// Überschrift einblenden
 			document.getElementById("headline2").style.display = "block";

@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="js/meinAjax.js" defer></script>
 
-<script src="js/meins.js" defer></script> 
+<script src="js/leaflet.js" defer></script> 
 
 <script src="js/functions.js" defer></script> 
 
@@ -38,6 +38,7 @@ crossorigin=""></script>
       <a href="#projects" class="w3-bar-item w3-button">Projects</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#more" class="w3-bar-item w3-button">More</a>
     </div>
   </div>
 </div>
@@ -254,11 +255,11 @@ crossorigin=""></script>
 
 
 
-  <article>
+  <article id="more">
       
  <p>Please select both criteria.</p> 
  <select onchange="ersteAuswahl(this.value)">
-  <option value="">bitte auswählen</option>
+  <option value="">please select</option>
   <option value="House">House</option>
   <option value="Penthouse">Penthouse</option>
   <option value="Lake House">Lake House</option>
@@ -268,7 +269,7 @@ crossorigin=""></script>
 </select>
 
 <select onchange="zweiteAuswahl(this.value)">
-  <option value="">bitte auswählen</option>
+  <option value="">please select</option>
   <option value="Liverpool">Liverpool</option>
   <option value="Birmingham">Birmingham</option>
   <option value="Manchester">Manchester</option>
